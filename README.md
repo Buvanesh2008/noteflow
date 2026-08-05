@@ -43,8 +43,10 @@ Built as part of my React learning journey.
 
 ## 🚀 Getting Started
 
+Clone the repository and install dependencies:
+
 ```bash
-git clone <repository-url>
+git clone https://github.com/Buvanesh2008/noteflow.git
 cd noteflow
 npm install
 npm run dev
