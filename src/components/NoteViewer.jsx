@@ -3,8 +3,8 @@ import '../styles/NoteViewer.css'
 export default function NoteViewer({ selectedNote, updateTitle, updateContent }){
     if(!selectedNote){
         return(
-            <div className='note-viewer'>
-                <h4>No note selected</h4>
+            <div className='empty-state'>
+                <h2>No note selected</h2>
                 <p>Select an existing note or create a new one using "+ New"</p>
             </div>
         )
@@ -12,6 +12,7 @@ export default function NoteViewer({ selectedNote, updateTitle, updateContent })
     return(
         <div className='note-viewer'>
             <input
+                className="note-title"
                 type="text"
                 value={selectedNote.title}
                 onChange={(event)=>updateTitle(event.target.value)}
@@ -23,6 +24,7 @@ export default function NoteViewer({ selectedNote, updateTitle, updateContent })
             />
 
             <textarea 
+                className='text-area'
                 value={selectedNote.content}
                 onChange={(event)=>updateContent(event.target.value)}
             >

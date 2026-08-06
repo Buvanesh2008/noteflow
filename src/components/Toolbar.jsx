@@ -4,7 +4,7 @@ export default function Toolbar({ createNewNote, deleteNote, selectedNote, setSe
     return(
         <div className="tools">
             <button className="add-btn" onClick={createNewNote}>+ New</button>
-            <button className="pin-btn">📌 Pin</button>
+            {/* <button className="pin-btn">📌 Pin</button> */}
             <button 
                 className="delete-btn" 
                 disabled={!selectedNote}

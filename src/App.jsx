@@ -1,7 +1,6 @@
 import './styles/App.css';
 import Sidebar from './components/Sidebar.jsx';
 import NoteViewer from './components/NoteViewer.jsx';
-import NoteList from './components/NoteList.jsx';
 import { useState, useEffect, useRef } from 'react';
 
 

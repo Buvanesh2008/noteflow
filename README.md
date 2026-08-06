@@ -6,7 +6,13 @@
 
 ## Screenshot
 
-> Screenshot will be added after the UI is finalized.
+### Empty State
+
+![Empty State](./screenshots/noteflow-empty-state.png)
+
+### Welcome Note
+
+![Welcome Note](./screenshots/noteflow-welcome.png)
 
 ## 📚 What I Learned
 

@@ -9,7 +9,12 @@ export default function NoteItem({ note, selectedNote, setSelectedNote }) {
             onClick={()=>setSelectedNote(note)}>
             <div className='notes-list'>
                 <p>{note.title}</p>
-                <small>{note.createdAt.toLocaleString()}</small>
+                <small>{new Date(note.createdAt).toLocaleDateString("en-IN", {
+                    day: "numeric",
+                    month: "short",
+                    year: "numeric",
+                    })}
+                </small>
             </div>
         </li>
     );
