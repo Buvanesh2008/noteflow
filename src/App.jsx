@@ -18,38 +18,69 @@ function App() {
       // console.log("Loaded from localStorage");
     }
     
-    return [
-      {
-        id: 1,
-        title: "React Basics",
-        content: "Learned about components, props, and state. Next topic: useEffect.",
-        createdAt: new Date("2026-08-01T09:30:00")
-      },
-      {
-        id: 2,
-        title: "MongoDB Setup",
-        content: "Installed MongoDB Community Edition. Successfully connected using Mongoose.",
-        createdAt: new Date("2026-08-01T10:15:00")
-      },
-      {
-        id: 3,
-        title: "CEG Admission",
-        content: "Carry allotment order, community certificate, income certificate, passport-size photos, and medical fitness certificate.",
-        createdAt: new Date("2026-08-01T11:00:00")
-      },
-      {
-        id: 4,
-        title: "Project Ideas",
-        content: "Build a DevBoard after completing the Notes App. Later add authentication and Markdown support.",
-        createdAt: new Date("2026-08-01T11:45:00")
-      },
-      {
-        id: 5,
-        title: "Express Notes",
-        content: "Understand routing, middleware, REST APIs, and connect Express with MongoDB.",
-        createdAt: new Date("2026-08-01T12:20:00")
-      }
-    ]
+    return[
+  {
+    id: 1,
+    title: "👋 Welcome to NoteFlow",
+    content: `Thanks for trying NoteFlow!
+
+Here's what you can do:
+
+• Create notes using the New button.
+• Edit the title and content instantly.
+• Search notes by title.
+• Delete notes you no longer need.
+• Your notes are automatically saved in your browser.
+
+Happy note-taking!`,
+    createdAt: new Date("2026-08-06T10:00:00"),
+  },
+
+  {
+    id: 2,
+    title: "⌨️ Keyboard Tips",
+    content: `• Click any note to start editing.
+• Titles update instantly.
+• Notes are saved automatically.
+• Refresh the page anytime without losing your work.`,
+    createdAt: new Date("2026-08-06T10:05:00"),
+  },
+
+  {
+    id: 3,
+    title: "🛒 Shopping List",
+    content: `• Coffee
+• Bread
+• Milk
+• USB-C Cable
+• Notebook`,
+    createdAt: new Date("2026-08-06T10:10:00"),
+  },
+
+  {
+    id: 4,
+    title: "⚛️ React Concepts",
+    content: `✔ Components
+✔ Props
+✔ useState
+✔ useEffect
+✔ Local Storage
+✔ Conditional Rendering`,
+    createdAt: new Date("2026-08-06T10:15:00"),
+  },
+
+  {
+    id: 5,
+    title: "🚀 Future Plans",
+    content: `• Pin notes
+• Tags & categories
+• Responsive mobile layout
+• Express backend
+• MongoDB database
+• User authentication`,
+    createdAt: new Date("2026-08-06T10:20:00"),
+  },
+]
     }
 
 
